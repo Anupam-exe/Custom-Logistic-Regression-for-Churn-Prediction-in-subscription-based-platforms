@@ -3,11 +3,15 @@
 
 <hr>
 
-<h2 style="font-size: 1.8em;">1. Project Overview</h2>
+<h2 style="font-size: 1.8em;">📝 1. Project Overview</h2>
 
-<p style="font-size: 1.1em; line-height: 1.6;">
-This project implements a custom-built Logistic Regression engine engineered entirely from scratch using NumPy to predict customer churn behavior. Designed with a focus on mathematical transparency and robust optimization, the system replaces black-box machine learning libraries for core model logic to provide full visibility into vectorization, sigmoid activation, and gradient descent. The framework incorporates comprehensive feature engineering, numerical feature standardization, L2 regularization, and explicit class imbalance handling. Furthermore, it features rigorous hyperparameter tuning (learning rate and iterations) backed by loss-per-iteration tracking and visualization.
-</p>
+<ul style="font-size: 1.1em; line-height: 1.6;">
+  <li>Implements a custom-built Logistic Regression engine engineered entirely from scratch using NumPy to predict customer churn behavior.</li>
+  <li>Designed with a focus on mathematical transparency and robust optimization, replacing black-box libraries for core model logic.</li>
+  <li>Provides full visibility into vectorization, sigmoid activation, and gradient descent optimization mechanics.</li>
+  <li>Incorporates comprehensive feature engineering, numerical feature standardization, L2 regularization, and explicit class imbalance handling.</li>
+  <li>Features rigorous hyperparameter tuning backed by loss-per-iteration tracking and training visualization.</li>
+</ul>
 
 <hr>
 
@@ -18,21 +22,19 @@ This project was developed using data from Kaggle:
 
 <hr>
 
-<h2 style="font-size: 1.8em;">2. Features</h2>
+<h2 style="font-size: 1.8em;">✨ 2. Features</h2>
 
 <ul style="font-size: 1.1em; line-height: 1.6;">
-  <li><b>Pure-NumPy Logistic Regression Engine:</b> Implements core model training, sigmoid activation, and gradient descent optimization entirely from scratch without relying on pre-built machine learning libraries.</li>
-  <li><b>Feature Engineering & Standardization:</b> Includes robust preprocessing steps to enhance data quality, alongside numerical feature standardization to improve gradient descent convergence stability.</li>
-  <li><b>L2 Regularization & Class Imbalance Handling:</b> Integrates L2 regularization to penalize large weights and prevent overfitting, alongside dedicated handling for class imbalance to ensure reliable prediction performance.</li>
-  <li><b>Hyperparameter Tuning:</b> Allows fine-tuning of critical model configurations, specifically learning rates and total training iterations, to optimize model convergence.</li>
-  <li><b>Loss & Iteration Tracking:</b> Visualizes gradient descent convergence, ROC curve comparisons, confusion matrices for both the custom NumPy model & scikit-learn baseline, and feature coefficients with their directional impact.</li>
+  <li><b>Pure-NumPy Engine:</b> Implements core model training, sigmoid activation, and gradient descent entirely from scratch.</li>
+  <li><b>Feature Engineering & Standardization:</b> Applies robust preprocessing and scaling to ensure stable gradient descent convergence.</li>
+  <li><b>Regularization & Imbalance Management:</b> Integrates L2 regularization to prevent overfitting and handles class imbalance for reliable performance.</li>
+  <li><b>Hyperparameter Tuning:</b> Enables fine-tuning of learning rates and training iterations to optimize convergence.</li>
+  <li><b>Loss & Metric Tracking:</b> Visualizes gradient descent convergence, ROC curves, confusion matrices, and feature coefficients.</li>
 </ul>
 
 <hr>
 
-<h2 style="font-size: 1.8em;">3. Tech Stack</h2>
-
-<h2 style="font-size: 1.8em;">3. Tech Stack</h2>
+<h2 style="font-size: 1.8em;">🛠️ 3. Tech Stack</h2>
 
 <ul style="font-size: 1.1em; line-height: 1.6;">
   <li><b>Python:</b> The core programming language utilized for data manipulation, mathematical operations, and pipeline execution.</li>
@@ -45,7 +47,7 @@ This project was developed using data from Kaggle:
 
 <hr>
 
-<h2 style="font-size: 1.8em;">4. Project Structure</h2>
+<h2 style="font-size: 1.8em;">🗂️ 4. Project Structure</h2>
 
 <p style="font-size: 1.1em; line-height: 1.6;">
 The repository follows a clean, organized architecture separating code notebooks, saved model outputs, and configuration files:
@@ -78,7 +80,7 @@ The repository follows a clean, organized architecture separating code notebooks
 
 <hr>
 
-<h2 style="font-size: 1.8em;">5. Installation & Setup</h2>
+<h2 style="font-size: 1.8em;">⚙️ 5. Installation & Setup</h2>
 
 <p style="font-size: 1.1em; line-height: 1.6;">
 To set up the environment and run the project locally, follow these steps:
@@ -93,7 +95,7 @@ To set up the environment and run the project locally, follow these steps:
 
 <hr>
 
-<h2 style="font-size: 1.8em;">6. Usage</h2>
+<h2 style="font-size: 1.8em;">⚡ 6. Usage</h2>
 
 <p style="font-size: 1.1em; line-height: 1.6;">
 Because this project runs in an interactive notebook environment, follow this workflow to execute the code:
@@ -109,7 +111,7 @@ Because this project runs in an interactive notebook environment, follow this wo
 
 <hr>
 
-<h2 style="font-size: 1.8em;">7. Evaluation & Comparison</h2>
+<h2 style="font-size: 1.8em;">⚖️ 7. Evaluation & Comparison</h2>
 
 <p style="font-size: 1.1em; line-height: 1.6;">
 The performance of the custom NumPy logistic regression model was benchmarked directly against an industry-standard scikit-learn implementation. Below is the comparative breakdown of their evaluation metrics across test data:
@@ -148,7 +150,7 @@ The performance of the custom NumPy logistic regression model was benchmarked di
 </table>
 
 <p style="font-size: 1.1em; line-height: 1.6; margin-top: 15px;">
-<b>Key Takeaways:</b>
+<b>🔍 Key Takeaways:</b>
 </p>
 
 <ul style="font-size: 1.1em; line-height: 1.6;">
@@ -158,29 +160,42 @@ The performance of the custom NumPy logistic regression model was benchmarked di
 
 <hr>
 
-<h2 style="font-size: 1.8em;">8. Implementation Decisions & Trade-offs</h2>
+<h2 style="font-size: 1.8em;">🎯 8. Implementation Decisions & Trade-offs</h2>
 
 <p style="font-size: 1.1em; line-height: 1.6;">
 Building a custom machine learning pipeline from scratch involves several critical design choices and architectural trade-offs:
 </p>
 
 <ul style="font-size: 1.1em; line-height: 1.6;">
-  <li><b>Pure NumPy Implementation vs. Black-Box Libraries:</b> <i>Choice:</i> Implemented sigmoid activation, vectorization, and gradient descent entirely from scratch using NumPy. <i>Trade-off:</i> Sacrifices high-level library abstractions for complete mathematical transparency, granular control over matrix operations, and a deep understanding of underlying optimization mechanics.</li>
-  <li><b>Numerical Feature Standardization:</b> <i>Choice:</i> Standardized all continuous input features prior to model ingestion. <i>Trade-off:</i> Introduces an extra preprocessing step, but is vital for preventing features with larger numeric scales from dominating the cost function and ensuring stable gradient descent convergence.</li>
-  <li><b>Incorporating L2 Regularization:</b> <i>Choice:</i> Integrated L2 weight penalty terms directly into the custom cost function and gradient update formulas. <i>Trade-off:</i> Adds mathematical complexity to the codebase, but effectively controls model variance and prevents overfitting on training data.</li>
-  <li><b>Explicit Class Imbalance Management:</b> <i>Choice:</i> Handled the skewed customer churn distribution during pipeline execution to boost minority class metrics. <i>Trade-off:</i> Requires careful threshold tuning, but prevents the model from achieving a misleadingly high accuracy by simply predicting the majority non-churn class.</li>
-  <li><b>Single-Notebook Workflow Architecture:</b> <i>Choice:</i> Structured the project inside an interactive Jupyter environment (<code>churn_prediction_model.ipynb</code>) accompanied by serialized model outputs (<code>.npy</code>). <i>Trade-off:</i> Less modular than a multi-file production software package, but provides a clean, visual, and self-contained narrative ideal for exploratory analysis, debugging, and transparent reproducibility.</li>
+  <li><b>Pure NumPy vs. Libraries:</b> Implemented sigmoid, vectorization, and gradient descent from scratch using NumPy, sacrificing high-level abstractions for complete mathematical transparency and control.</li>
+  <li><b>Feature Standardization:</b> Standardized continuous input features prior to ingestion to prevent scale dominance and ensure stable gradient descent convergence.</li>
+  <li><b>L2 Regularization:</b> Integrated L2 weight penalties directly into cost and gradient updates, adding mathematical complexity to effectively control variance and prevent overfitting.</li>
+  <li><b>Class Imbalance Management:</b> Handled skewed churn distribution during execution, requiring threshold tuning to prevent deceptive high accuracy on the majority class.</li>
+  <li><b>Single-Notebook Architecture:</b> Structured the project within an interactive Jupyter environment with serialized outputs, trading modularity for a clean, reproducible visual narrative.</li>
 </ul>
-
 <hr>
 
-<h2 style="font-size: 1.8em;">9. Limitations & Future Improvements</h2>
+<h2 style="font-size: 1.8em;">⚠️ 9. Limitations</h2>
 
 <p style="font-size: 1.1em; line-height: 1.6;">
-Transparency regarding current constraints helps frame the scope of this project and outlines clear avenues for future evolution:
+Current constraints and boundaries framing the scope of this project:
 </p>
 
 <ul style="font-size: 1.1em; line-height: 1.6;">
-  <li><b>Current Limitations:</b> The pipeline relies on a single-notebook architecture which, while great for exploratory transparency, lacks modular production-grade scripts. Additionally, the project scope was intentionally restricted to a linear logistic regression model, meaning alternative algorithm types were not explored. While class distribution is managed, the custom model's minority class precision (churn class) also remains modest due to the inherent severe imbalance of the dataset.</li>
-  <li><b>Future Improvements:</b> Next steps include refactoring the core logic into modular Python scripts (<code>.py</code>) with automated unit tests using <code>pytest</code>, implementing advanced hyperparameter tuning via grid search, and exploring alternative resampling techniques or cost-sensitive learning to further improve minority class detection. Furthermore, non-linear and ensemble alternatives—specifically <b>Support Vector Machines (SVM)</b>, <b>Decision Tree Classifiers</b>, and <b>Random Forest Classifiers</b>—can be added and benchmarked against the current implementation to evaluate complex decision boundaries and performance gains.</li>
+  <li><b>Single-Notebook Architecture:</b> Relies on an interactive notebook structure which lacks modular, production-grade scripts.</li>
+  <li><b>Algorithm Scope:</b> Intentionally restricted to a linear logistic regression model, meaning alternative algorithm types were not explored.</li>
+  <li><b>Minority Class Precision:</b> Despite class distribution management, precision for the minority churn class remains modest due to severe dataset imbalance.</li>
+</ul>
+
+<h2 style="font-size: 1.8em;">🚀 10. Future Improvements</h2>
+
+<p style="font-size: 1.1em; line-height: 1.6;">
+Planned avenues and features for the evolution of this project:
+</p>
+
+<ul style="font-size: 1.1em; line-height: 1.6;">
+  <li><b>Modular Refactoring:</b> Refactor core logic into modular Python scripts (<code>.py</code>) with automated unit tests using <code>pytest</code>.</li>
+  <li><b>Advanced Tuning:</b> Implement grid search optimization for learning rates and regularization strengths.</li>
+  <li><b>Enhanced Imbalance Handling:</b> Explore alternative resampling techniques or cost-sensitive learning to further improve minority class detection.</li>
+  <li><b>Alternative Classifiers:</b> Integrate and benchmark non-linear and ensemble models—specifically Support Vector Machines (SVM), Decision Trees, and Random Forests—against the current implementation.</li>
 </ul>
