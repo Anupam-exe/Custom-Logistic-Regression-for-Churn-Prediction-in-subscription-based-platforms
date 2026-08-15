@@ -1,4 +1,4 @@
-<h1 style="font-size: 2.5em; text-align: center;">Customer Churn Prediction Engine</h1>
+<h1 style="font-size: 2.5em; text-align: center;">Customer churn prediction engine for subscription-based platforms</h1>
 <h3 style="font-size: 1.3em; text-align: center; color: #586069;">NumPy-Based Logistic Regression & Mathematical Modeling</h3>
 
 <hr>
